@@ -7,19 +7,30 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: #D9D7D2 solid 1px;
   padding: 4em 0; }
   .project h1 {
-    padding-bottom: 1em; }
+    padding-bottom: 0em; }
   .project h2, .project h3 {
     color: #0099AC; }
   .project img {
     display: block;
     border: solid 1px #DDE1E2; }
 
-.gray-section {
+    p {font-size: 1.2em;}
+
+    .gray-section {
   background-color: #F2F4F4; }
 
 #header, header {
   background-color: #0099AC;
   padding: 1em 0; }
+
+.head {
+  background-color: #d6eff1;
+  padding-bottom: 0em;
+  }
+
+.lead {
+  p { font-size: 1.8rem; }
+  }
 
 a {
   color: #0099AC; }
