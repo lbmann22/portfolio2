@@ -27,11 +27,11 @@ a {
     color: #FFD15E; }
 
 .button {
-    background-color: #E7A500;
-    color: black;
+    background-color: darken(#0099AC, 10%);
+    color: fff;
     &:hover {
-        background-color: #ffbf20;
-        color: black;
+        background-color: darken(#0099AC, 20%);
+        color: fff;
     }
 }    
 .box {
