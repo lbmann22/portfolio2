@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #444;
+}
+
+.project {
+  border-bottom: #D9D7D2 solid 1px;
+  padding: 4em 0; }
+  .project h1 {
+    padding-bottom: 1em; }
+  .project h2, .project h3 {
+    color: #0099AC; }
+  .project img {
+    display: block;
+    border: solid 1px #DDE1E2; }
+
+.gray-section {
+  background-color: #F2F4F4; }
+
+#header, header {
+  background-color: #0099AC;
+  padding: 1em 0; }
+
+a {
+  color: #0099AC; }
+  a:hover {
+    color: #FFD15E; }
+
+.button {
+    background-color: #E7A500;
+    color: black;
+    &:hover {
+        background-color: #ffbf20;
+        color: black;
+    }
+}    
+.box {
+  margin: 1.5em 0;
+  z-index: 30; }
+
+.fixed {
+  position: relative; }
+
+.opening {
+  background-color: #eee;
+  text-shadow: 1px 1px 2px #fff;
+  -webkit-box-shadow: inset 0px 0px 3px 2px #ccc;
+          box-shadow: inset 0px 0px 3px 2px #ccc;
+  text-align: center;
+  padding: 1em 0; }
+  .opening h1 {
+    font-size: 2em; }
+  .opening p {
+    font-size: .9em;
+    color: #555; }
+
+.caption {
+  font-size: .75em;
+  font-style: italic;
+  color: #666; }
+
+.subtitle {
+  line-height: 1em; }
+  .subtitle a {
+    font-size: .75em;
+    color: #0099AC; }
+    .subtitle a:hover {
+      color: #FFD15E; }
+
+.showcase a {
+  display: block;
+  background-color: #0099AC;
+  padding: 1em;
+  color: #fff;
+  -webkit-box-shadow: 0 0.1vw 0.1vw -0.1vw rgba(0, 0, 0, 0.33);
+          box-shadow: 0 0.1vw 0.1vw -0.1vw rgba(0, 0, 0, 0.33); }
+  .showcase a:hover {
+    background-color: #007685;
+    color: #fff;
+    text-decoration: none; }
+
+.showcase img {
+  width: 30%;
+  float: left;
+  clear: both;
+  padding-right: 1em;
+  border: none; }
+
+.profile {
+  background: #fff; }
+  .profile img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin-right: 20px;
+    float: left; }
+
+footer, #footer {
+  position: relative;
+  background-color: #0099AC; }
+  footer a, #footer a {
+    color: #FFD15E; }
+    footer a:hover, #footer a:hover {
+      color: #FFD15E;
+      text-decoration: underline; }
+  footer p, #footer p {
+    color: #fff;
+    font-size: .8em;
+    background: url('../img/brand/bee-small.png') right center no-repeat #0099AC;
+    padding: 2em 0;
+    margin: 0; }
+
+.grid-container {
+    max-width: 50rem;
+}
